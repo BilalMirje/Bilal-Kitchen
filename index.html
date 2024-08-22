@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal's Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid navbar">
+                <a class="navbar-brand" href="#">
+                    <img src="logo2.jpg" alt="logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link" href="signIn.html">SignIn</a>
+                        <a class="nav-link" href="about.html">About</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="slider1.jpg" class="d-block w-100" alt="slider1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="slider2.jpg" class="d-block w-100" alt="slider2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="slider3.avif" class="d-block w-100" alt="slider3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="hero-text">
+                <h1>Bilal's Kitchen</h1>
+                <p>Delicious and healthy food delivered to your door</p>
+                <a href="menu.html">Explore Dishes</a>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Why Choose Us?</h2>
+            <p>We use fresh and organic ingredients to prepare our meals</p>
+            <p>We offer a variety of cuisines to suit your taste buds</p>
+            <p>We deliver fast and with care to ensure your satisfaction</p>
+        </div>
+        <div class="slider-section">
+            <h2>Our Speciality</h2>
+            <p>Check out some of our best-selling dishes</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="card1.avif" alt="Card image" class="card-image">
+                    <div class="card-content">
+                        <h3>Chicken Tikka Masala</h3>
+                        <p>Tender chicken pieces cooked in a rich and creamy tomato sauce</p>
+                        <a href="#" class="order-now">Order Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="card2.jpg" alt="Card image" class="card-image">
+                    <div class="card-content">
+                        <h3>Chicken Biryani</h3>
+                        <p>The most loving dish in the world.
+                            And we are here to taste that Biryani
+                        </p>
+                        <a href="#" class="order-now">Order Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="card3.jpg" alt="Card image" class="card-image">
+                    <div class="card-content">
+                        <h3>Chicken Gravy</h3>
+                        <p>Authentic chicken gravy with spicy masala's</p>
+                        <a href="#" class="order-now">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 Bilal's Kitchen. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="order-success.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
